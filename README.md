@@ -1,10 +1,5 @@
 ### Karate Test
-
-# TODO:
-
-* [ ] Requirements
-
-* [ ] Steps on how to run
+[![Karate CI](https://github.com/VivaaindreanNg/Karate-Test/actions/workflows/karate-ci.yml/badge.svg)](https://github.com/VivaaindreanNg/Karate-Test/actions/workflows/karate-ci.yml)
 
 ## Steps:
 
@@ -25,9 +20,9 @@ $ java -version
 $ unzip karate_jar.zip
 ```
 
-5. (Optional) Install `Karate Runner` extension in VS Code.
+5. (Optional) Install `Karate Runner` extension in VS Code. Running test in here would be straightforward.
 
-6. To test `*.feature` file, just run the following:
+6. To test `*.feature` file on terminal, just run the following:
 ```
 $ ./karate src/demo/web/github.feature
 ```
