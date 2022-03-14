@@ -25,4 +25,12 @@ $ java -version
 $ unzip karate_jar.zip
 ```
 
-5. Install `Karate Runner` extension in VS Code.
+5. (Optional) Install `Karate Runner` extension in VS Code.
+
+6. To test `*.feature` file, just run the following:
+```
+$ ./karate src/demo/web/github.feature
+```
+```
+$ ./karate src/demo/api/users.feature 
+```
