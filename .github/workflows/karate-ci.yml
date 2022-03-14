@@ -10,9 +10,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
 
     steps:
     - uses: actions/checkout@v2
@@ -21,8 +18,9 @@ jobs:
       with:
         java-version: '11'
         distribution: 'jdk'
-        server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
-        settings-path: ${{ github.workspace }} # location for the settings.xml file
+        run: |
+        java -version
 
     - name: Verify JDK
-      run: java -version
+      run: |
+        java -version
