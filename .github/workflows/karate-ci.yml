@@ -25,6 +25,10 @@ jobs:
       - name: Verify JDK
         run: |
           java -version
+      - name: Run karate scripts
+        run: |
+          ./karate src/demo/api/users.feature
+
 
 # Add pre-commit run --all-files
 
