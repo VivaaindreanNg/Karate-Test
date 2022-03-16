@@ -25,6 +25,9 @@ jobs:
       - name: Verify JDK
         run: |
           java -version
+      - name: Pre-run script
+        run: |
+          java -cp karate.jar 
       - name: Run karate scripts
         run: |
           ./karate -h
