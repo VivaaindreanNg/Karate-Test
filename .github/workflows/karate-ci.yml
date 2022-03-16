@@ -20,9 +20,11 @@ jobs:
       - name: Verify JDK
         run: |
           java -cp karate.jar --version
+      - name: Pre-running karate scripts
+        run: |
+          unzip karate_jar.zip
       - name: Run karate scripts
         run: |
-          java -cp karate.jar com.intuit.karate.Main src/demo/web/github.feature
-          java -cp karate.jar -jar karate.jar src/demo/api/users.feature
+          ./karate src/demo/
 
 
