@@ -2,7 +2,7 @@ name: Karate CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, main ]
   pull_request:
     branches: [ master ]
   # workflow_dispatch: # Allow to manually run workflow
