@@ -1,11 +1,6 @@
 name: Karate CI
 
-on:
-  push:
-    branches: [ master, main ]
-  pull_request:
-    branches: [ master ]
-  # workflow_dispatch: # Allow to manually run workflow
+on: push
 
 
 jobs:
@@ -24,10 +19,7 @@ jobs:
           java-version: 11
       - name: Verify JDK
         run: |
-          java -version
-      - name: Pre-run script
-        run: |
-          java -cp karate.jar 
+          java -cp karate.jar --version
       - name: Run karate scripts
         run: |
           ./karate -h
