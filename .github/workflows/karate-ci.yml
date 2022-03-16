@@ -27,8 +27,6 @@ jobs:
           java -version
       - name: Run karate scripts
         run: |
-          ./karate src/demo/api/users.feature
+          ./karate -h
 
-
-# Add pre-commit run --all-files
 
