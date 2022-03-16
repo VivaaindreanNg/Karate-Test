@@ -22,7 +22,8 @@ jobs:
           java -cp karate.jar --version
       - name: Run karate scripts
         run: |
-          java -cp karate.jar com.intuit.karate.Main src/demo/web/github.feature
+          java -jar karate.jar com.intuit.karate.Main
+          java -cp karate.jar src/demo/web/github.feature
           java -cp karate.jar -jar karate.jar src/demo/api/users.feature
 
 
