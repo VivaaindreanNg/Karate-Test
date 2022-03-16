@@ -20,9 +20,9 @@ jobs:
       - name: Verify JDK
         run: |
           java --version
-      # - name: Pre-running karate scripts
-      #   run: |
-      #     unzip karate_jar.zip
+      - name: Pre-running karate scripts
+        run: |
+          unzip karate_jar.zip
       - name: Run karate scripts
         run: |
           ./karate src/demo/
