@@ -3,3 +3,5 @@
 .vscode
 target/
 
+# Ignore web test due to absence of chrome.exe driver
+src/**/github.feature
