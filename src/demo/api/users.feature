@@ -34,7 +34,7 @@ Feature: sample karate api test script
     Given url 'https://jsonplaceholder.typicode.com/users'
     And request user
     When method post
-    Then status 400
+    Then status 200
 
     * def id = response.id
     * print 'created id is: ', id
