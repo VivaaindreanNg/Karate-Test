@@ -25,6 +25,6 @@ jobs:
           unzip karate_jar.zip
       - name: Run karate scripts
         run: |
-          ./karate src/demo/
+          ./karate src/demo/api/
 
 
