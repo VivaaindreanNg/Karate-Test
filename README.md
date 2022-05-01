@@ -1,5 +1,5 @@
 ### Karate Test
-[![Karate CI](https://github.com/VivaaindreanNg/Karate-Test/actions/workflows/karate-ci.yml/badge.svg)](https://github.com/VivaaindreanNg/Karate-Test/actions/workflows/karate-ci.yml)
+<!-- [![Karate CI](https://github.com/VivaaindreanNg/Karate-Test/actions/workflows/karate-ci.yml/badge.svg)](https://github.com/VivaaindreanNg/Karate-Test/actions/workflows/karate-ci.yml) -->
 
 ## Steps:
 
